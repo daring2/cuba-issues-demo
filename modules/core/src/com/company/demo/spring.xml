@@ -2,6 +2,9 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:context="http://www.springframework.org/schema/context">
 
+    <bean id="cuba_Messages" class="com.company.demo.core.demo.DemoMessages"/>
+    <bean id="cuba_LoginPasswordAuthenticationProvider" class="com.company.demo.core.demo.DemoAuthenticationProvider"/>
+
     <!-- Annotation-based beans -->
     <context:component-scan base-package="com.company.demo"/>
 
